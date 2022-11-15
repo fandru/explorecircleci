@@ -1,5 +1,5 @@
 version: 2.1
-jobs:
+jobssa:
   build:
     docker:
       - image: alpine:3.15
