@@ -2,7 +2,6 @@ version: 2.1
 
 jobs:
   hello-job:
-     steps:
       - run: echo "hello world" # run the `echo` command
 
 workflows:
