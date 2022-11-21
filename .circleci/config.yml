@@ -8,7 +8,7 @@ workflows:
       - continuation/continue:
           configuration_path: ".circleci/main.yml"
           parameters: /docker/Readme.md
-          pre-steps:
+          pre-steps: 
             - run:
                 command: |
                   if [ -z "${CIRCLE_PULL_REQUEST##*/}" ]
