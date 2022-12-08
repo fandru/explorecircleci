@@ -1,0 +1,6 @@
+repos:
+-    repos: https://github.com/psf/black
+     rev: 21.9B0
+     hooks:
+     -   id: black
+         args: [--safe]
